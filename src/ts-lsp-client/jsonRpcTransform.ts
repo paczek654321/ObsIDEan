@@ -65,6 +65,10 @@ export class JSONRPCTransform extends Transform {
 			  numString += ch;
 			  position += 1;
 			}
+			while (!suffixRe.test(this._curChunk.slice(position, position + suffixLength).toString(encoding)))
+			{
+				position += 1
+			}
 
 			if (position === leading.length || this._curChunk.length - position < suffixLength || !suffixRe.test(this._curChunk.slice(position, position + suffixLength).toString(encoding))) {
 			  done(new Error(`[_transform] Bad header: ${this._curChunk.toString(encoding)}`));
