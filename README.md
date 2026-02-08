@@ -2,6 +2,11 @@
 ## About
 ObsIDEan is an Obsidian plugin that lets you edit code.
 Currently it's somewhat functional but still missing plenty both essential and QOL features.
+## Usage
+1. Clone the project to your Obsidian vault's plugin directory
+2. Run `npm install`
+3. Run `npm run dev`
+4. Enable the plugin in Obsidian settings
 ## Currently supported
 - C++ with Clangd
 - Python with pylsp
