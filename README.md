@@ -8,8 +8,13 @@ Currently it's somewhat functional but still missing plenty both essential and Q
 3. Run `npm run dev`
 4. Enable the plugin in Obsidian settings
 ## Currently supported
-- C++ with Clangd
-- Python with pylsp
+### C++
+Requirements:
+- clangd
+### Python
+Requirements:
+- pylsp
+- pyflakes
 ## To be implemented
 - Automatic code fixes support
 - Creating new files
