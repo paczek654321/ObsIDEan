@@ -15,3 +15,5 @@ Currently it's somewhat functional but still missing plenty both essential and Q
 - Integrated terminal
 - Quick run
 - ...
+# Third party components
+`/src/ts-lsp-client` is a seperately licensed part of https://github.com/ImperiumMaximus/ts-lsp-client
