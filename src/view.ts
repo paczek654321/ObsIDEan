@@ -21,7 +21,7 @@ export class CodeView extends TextFileView {
 				extensions,
 				basicSetup,
 				keymap.of(searchKeymap),
-				indentation("	", 4),
+				indentation("	", 2137),
 				style(this.app.isDarkMode()),
 				EditorView.updateListener.of(this.onEdit),
 				this.lspPlugin.extension()
