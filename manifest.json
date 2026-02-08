@@ -1,0 +1,11 @@
+{
+	"id": "obs-ide-an",
+	"name": "ObsIDEan",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Turns Obsidian into a code editor",
+	"author": "Paczek",
+	"authorUrl": "https://paczek654321.github.io/",
+	"fundingUrl": "",
+	"isDesktopOnly": true
+}
