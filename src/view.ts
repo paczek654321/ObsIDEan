@@ -4,7 +4,6 @@ import { EditorState, Extension, Transaction } from "@codemirror/state";
 import { basicSetup } from "@codemirror/basic-setup";
 import { LSPPlugin } from "lsp";
 import { indentation, style } from "extensions";
-import { searchKeymap } from "@codemirror/search"
 export const CODE_VIEW_TYPE = "codeview"
 
 export class CodeView extends TextFileView {
@@ -20,7 +19,6 @@ export class CodeView extends TextFileView {
 			[
 				extensions,
 				basicSetup,
-				keymap.of(searchKeymap),
 				indentation("	", 4),
 				style(this.app.isDarkMode()),
 				EditorView.updateListener.of(this.onEdit),
